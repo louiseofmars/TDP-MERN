@@ -15,6 +15,6 @@ export default Trainer;
 
 Trainer.propTypes = {
     name: PropTypes.string.isRequired,
-    age: PropTypes.number.isRequired,
+    age: PropTypes.number.isRequired, //can't type letters in input box
     specialism: PropTypes.string.isRequired,
 }
